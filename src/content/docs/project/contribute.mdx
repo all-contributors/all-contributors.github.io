@@ -102,7 +102,7 @@ Once you have completed the above, you can launch a server locally that will bui
 * Then, go to `http://localhost:4321` and you will see the all contributors website there!
 * Refresh the browser page as needed when editing markdown pages.
 
-### Make changes - linting your contribution
+### Linting your contribution
 
 If you make changes to a markdown file in the site, then our linting action will
 check those changes. To run the linter yourself locally on the documentation before submitting a PR use:
@@ -112,6 +112,28 @@ check those changes. To run the linter yourself locally on the documentation bef
 You can also run it manually on specific files like this:
 
 `markdownlint --fix "src/content/docs/contribute.md"`
+
+### Checking links
+
+When modifying links and cross-references, there are scripts to help ensure that these have a valid target.
+[Lychee](https://lychee.cli.rs/introduction/) is called by these scripts.
+There are a number of options to [install Lychee](https://lychee.cli.rs/installation/), including package managers, builds available on GitHub, and building from source using Cargo.
+
+To check internal links, for example between pages or references to images, run:
+
+```console
+npm run link-check-md-offline
+```
+
+This is the same test that is run in CI and it should pass before contributions are merged.
+
+You can also check all links, including links to external resources like other websites:
+
+```console
+npm run link-check-md
+```
+
+<Aside type="caution">Checking online resources is likely to result in false positives. Some sites may reject requests if they don't appear to be from a browser, or you may be rate limited.</Aside>
 
 ## Add yourself as a contributor
 
