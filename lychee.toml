@@ -43,7 +43,9 @@ fallback_extensions = ["md", "mdx", "html"]
 #############################  Exclusions  ##########################
 
 # Exclude URLs and mail addresses from checking. The values are treated as regular expressions
-exclude = []
+exclude = [
+  '%7B.*%7D' #  Exclude astro aliases, like {reference}
+]
 
 # Check fragments - internal links in pages
 include_fragments = true

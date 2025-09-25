@@ -14,8 +14,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "link-check-md": "lychee src/content/docs/**/*.md --root-dir $(pwd)/public",
-    "link-check-md-offline": "lychee src/content/docs/**/*.md --root-dir $(pwd)/public --offline",
+    "link-check-md": "lychee src/content/docs/**/*.{md,mdx} --root-dir $(pwd)/public",
+    "link-check-md-offline": "lychee src/content/docs/**/*.{md,mdx} --root-dir $(pwd)/public --offline",
     "lint": "markdownlint **/*.{md,mdx} --ignore node_modules",
     "lint-fix": "markdownlint **/*.{md,mdx} --ignore node_modules --fix"
   },
