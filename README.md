@@ -213,6 +213,7 @@ Thanks go to these wonderful people ([emoji key](https://allcontributors.org/emo
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://mrhedmad.github.io/blog/"><img src="https://avatars.githubusercontent.com/u/46203625?v=4?s=100" width="100px;" alt="Luca "Hedmad" Visentin"/><br /><sub><b>Luca "Hedmad" Visentin</b></sub></a><br /><a href="https://github.com/all-contributors/allcontributors.org/commits?author=MrHedmad" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/mayank-dev-15"><img src="https://avatars.githubusercontent.com/u/289773841?v=4?s=100" width="100px;" alt="Mayank Basena"/><br /><sub><b>Mayank Basena</b></sub></a><br /><a href="https://github.com/all-contributors/allcontributors.org/commits?author=mayank-dev-15" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://brandonalenz.com"><img src="https://avatars.githubusercontent.com/u/15805554?v=4?s=100" width="100px;" alt="Brandon Lenz"/><br /><sub><b>Brandon Lenz</b></sub></a><br /><a href="https://github.com/all-contributors/allcontributors.org/commits?author=brandonlenz" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
