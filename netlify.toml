@@ -6,65 +6,6 @@ command = "pnpm run get-translations && pnpm run build"
 publish = "dist/"
 
 # Redirect rules
-# Splat redirect from /docs/<lang>/ to /en
-# For example /docs/fr/overview to /en/overview
-# As en is currently the only locale
-[[redirects]]
-  from = "/docs/es-ES/:slug"
-  to = "/en/:slug"
-  status = 302
-[[redirects]]
-  from = "/docs/fr/:slug"
-  to = "/en/:slug"
-  status = 302
-[[redirects]]
-  from = "/docs/ko/:slug"
-  to = "/en/:slug"
-  status = 302
-[[redirects]]
-  from = "/docs/pt-BR/:slug"
-  to = "/en/:slug"
-  status = 302
-[[redirects]]
-  from = "/docs/zh-CN/:slug"
-  to = "/en/:slug"
-  status = 302
-[[redirects]]
-  from = "/docs/id/:slug"
-  to = "/en/:slug"
-  status = 302
-[[redirects]]
-  from = "/docs/de/:slug"
-  to = "/en/:slug"
-  status = 302
-[[redirects]]
-  from = "/docs/pl/:slug"
-  to = "/en/:slug"
-  status = 302
-[[redirects]]
-  from = "/docs/ru/:slug"
-  to = "/en/:slug"
-  status = 302
-[[redirects]]
-  from = "/docs/ja/:slug"
-  to = "/en/:slug"
-  status = 302
-[[redirects]]
-  from = "/docs/nl/:slug"
-  to = "/en/:slug"
-  status = 302
-[[redirects]]
-  from = "/docs/ro/:slug"
-  to = "/en/:slug"
-  status = 302
-[[redirects]]
-  from = "/docs/in/:slug"
-  to = "/en/:slug"
-  status = 302
-[[redirects]]
-  from = "/docs/hi/:slug"
-  to = "/en/:slug"
-  status = 302
 # Splat redirect from /docs/ to /
 # Previously the site was severed at allcontributors.org/docs/
 [[redirects]]
