@@ -12,7 +12,7 @@ publish = "dist/"
   from = "/docs/*"
   to = "/:splat"
   status = 302
-# Redirects to /en/ from old addresses at /
+# Redirects to /en/ from paths at /
 [[redirects]]
   from = "/reference*"
   to = "/en/reference/:splat"
@@ -28,4 +28,25 @@ publish = "dist/"
 [[redirects]]
   from = "/project/*"
   to = "/en/project/:splat"
+  status = 301
+# Redirects to /reference/ from old top-level paths
+[[redirects]]
+  from = "/overview"
+  to = "/reference"
+  status = 301
+[[redirects]]
+  from = "/emoji-key"
+  to = "/reference/emoji-key"
+  status = 301
+[[redirects]]
+  from = "/specification"
+  to = "/reference/specification"
+  status = 301
+[[redirects]]
+  from = "/tooling"
+  to = "/reference/tooling"
+  status = 301
+[[redirects]]
+  from = "/usage-tips"
+  to = "/reference/usage-tips"
   status = 301
