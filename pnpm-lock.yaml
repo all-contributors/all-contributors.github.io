@@ -53,7 +53,7 @@ importers:
     devDependencies:
       '@crowdin/cli':
         specifier: ^4.14.2
-        version: 4.15.0
+        version: 4.15.1
       cz-conventional-changelog:
         specifier: ^3.3.0
         version: 3.3.0(@types/node@24.13.3)(typescript@7.0.2)
@@ -278,8 +278,8 @@ packages:
     resolution: {integrity: sha512-7zVFCDB2reMvJH5dmbKnOQPjZEvjdJTH8jc0U/PIPU1r3/+vf5pD1HlfitV2MWsWXrvu7u39iY1lyLUPOaN0Gw==}
     engines: {node: '>=22.12.0'}
 
-  '@crowdin/cli@4.15.0':
-    resolution: {integrity: sha512-4hOWF2lUENe+TDYZIpBwCQO5aOe7O1Q7CmQ4Py1uwWtBlN855P3tWwnKpLxoAQ+wUx2jv9bJcZ3xgmeoD2qzkQ==}
+  '@crowdin/cli@4.15.1':
+    resolution: {integrity: sha512-ck64SSRQFVaU8C09d1kti1/fAGQh2EJGPZvEpTQvnf9l/2GCGBc/hJJt8cC1TdPzc+BCnfwHm2cva47eD/kEmw==}
     hasBin: true
 
   '@ctrl/tinycolor@4.2.0':
@@ -2685,8 +2685,8 @@ packages:
   tailwindcss@4.3.3:
     resolution: {integrity: sha512-gOhV3P7ufE62QDGg1zVaTgCR+EtPv92k2nIhVcVKcLmxT1sUBsQGhnZj175j+MqRt4zLF7ic+sCYjfhxMxj7YQ==}
 
-  tar@7.5.21:
-    resolution: {integrity: sha512-XdhtCvlMywwxpCW8YEq3lOXBJpUPTR2OHHcwLPO3HwsJqOHa2Ok/oJ7ruGzp+JrKoRPVCzJwAdEjqLW/vNRPHA==}
+  tar@7.5.22:
+    resolution: {integrity: sha512-MFO/QzvtAOmJbkhOaCTvbGcFN9L9b+JunIsDwaKljSOdcLMea3NJ1k9Usz/rjdfSXTq4dfzfeS7W4p4YOAAHeA==}
     engines: {node: '>=18'}
 
   terminal-link@5.0.0:
@@ -3286,12 +3286,12 @@ snapshots:
       picocolors: 1.1.1
     optional: true
 
-  '@crowdin/cli@4.15.0':
+  '@crowdin/cli@4.15.1':
     dependencies:
       command-exists-promise: 2.0.2
       node-fetch: 2.7.0
       shelljs: 0.10.0
-      tar: 7.5.21
+      tar: 7.5.22
       yauzl: 3.4.0
     transitivePeerDependencies:
       - encoding
@@ -6135,7 +6135,7 @@ snapshots:
 
   tailwindcss@4.3.3: {}
 
-  tar@7.5.21:
+  tar@7.5.22:
     dependencies:
       '@isaacs/fs-minipass': 4.0.1
       chownr: 3.0.0
